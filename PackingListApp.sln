@@ -17,7 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackingListApp.Application"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackingListApp.Domain", "src\PackingListApp.Domain\PackingListApp.Domain.csproj", "{4F90A2E5-7924-4EBA-9500-A7275895FBE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackingListApp.Api", "src\PackingListApp.Api\PackingListApp.Api.csproj", "{41073ACE-4A17-47CD-ADB6-16570F590270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackingListApp.Api", "src\PackingListApp.Api\PackingListApp.Api.csproj", "{41073ACE-4A17-47CD-ADB6-16570F590270}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7BC290B6-E651-4AFD-BED0-C35D589F0CE6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

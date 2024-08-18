@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 using PackingListApp.Shared.Abstractions.Commands;
 
 namespace PackingListApp.Shared.Commands;
-public class InMemoryCommandDispatcher : ICommandDispatcher
+internal sealed class InMemoryCommandDispatcher : ICommandDispatcher
 {
     private readonly IServiceProvider _serviceProvider;
 

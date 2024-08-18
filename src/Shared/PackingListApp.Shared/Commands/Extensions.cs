@@ -1,9 +1,8 @@
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 using PackingListApp.Shared.Abstractions.Commands;
-using PackingListApp.Shared.Commands;
 
-namespace PackingListApp.Shared;
+namespace PackingListApp.Shared.Commands;
 public static class Extensions
 {
     public static IServiceCollection AddCommands(this IServiceCollection services)

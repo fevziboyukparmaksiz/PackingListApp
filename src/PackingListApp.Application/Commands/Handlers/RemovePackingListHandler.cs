@@ -1,5 +1,4 @@
 using PackingListApp.Application.Exceptions;
-using PackingListApp.Domain.Entities;
 using PackingListApp.Domain.Repositories;
 using PackingListApp.Shared.Abstractions.Commands;
 
